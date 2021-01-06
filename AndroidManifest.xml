@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goodfastfoodrepublicpolytechnic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.CanteenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.StoreActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.FavActivity"
+            android:label="@string/title_activity_fav" >
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.FavouriteActivity"
+            android:label="@string/title_activity_favourite" >
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.LoginOrLogoutActivity"
+            android:label="@string/title_activity_login_or_logout" >
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.StoreDescription"
+            android:label="@string/title_activity_store_description" >
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.RatingAndReviews"
+            android:label="@string/title_activity_rating_and_reviews" >
+        </activity>
+        <activity
+            android:name="com.example.goodfastfoodrepublicpolytechnic.UpdateReview"
+            android:label="@string/title_activity_update_review" >
+        </activity>
+    </application>
+
+</manifest>
